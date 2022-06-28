@@ -157,7 +157,7 @@ function reallyBigFunction() {
 }
 
 function insertCodeSmell(a) {
-  if a == 2 {
+  if (a == 2) {
     return true;
   } else {
     return false;
